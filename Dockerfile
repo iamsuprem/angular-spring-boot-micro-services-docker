@@ -1,4 +1,4 @@
-FROM java:11
+FROM openjdk:11
 ENV SPRING_BOOT_VER @version@
 VOLUME /tmp
 VOLUME /var/log/spring-boot
